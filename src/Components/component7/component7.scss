@@ -1,0 +1,16 @@
+.component7{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logout{
+    align-items: center;
+    cursor: pointer;
+
+    button{
+      cursor: pointer;
+    }
+  }
+}

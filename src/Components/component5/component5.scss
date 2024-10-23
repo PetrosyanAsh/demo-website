@@ -1,0 +1,95 @@
+@import "./../../styles/variables.scss";
+
+
+.component5{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-color: $black-bg-color;
+  padding-top: 50px;
+
+  .contactsDiv {
+    width: 95%;
+    height: 300px;
+    border-radius: 20px;
+    //background-color: darkslategray;
+    background-color: black;
+    margin: 0 auto;
+    .contactsHeader{
+      width: 100%;
+      height: 50px;
+      //background-color: orange;
+      margin: auto;
+      //padding-top: 20px;
+      //padding-left: 20px;
+
+      .contactsLogoDiv{
+        //background-color: yellow;
+        width: 200px;
+        height: 50px;
+
+        //margin-left: auto;
+        //margin-right: auto;
+        //right: 0;
+        position: relative;
+        margin: 0 auto;
+        top: 30px;
+        //left: 100px;
+        //text-align: center;
+
+        .contactsLogoImg{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .contactsBody{
+      width: 100%;
+      height: 250px;
+      //background-color: blue;
+
+      .contactsAddressDiv{
+        width: 50%;
+        height: 250px;
+        //background-color: grey;
+        top: 0;
+        bottom: 0;
+        padding-top: 40px;
+        float: left;
+        .addressHeaderDiv{
+          font-size: min(8vw, 45px);
+        }
+        .addressDiv{
+          font-size: min(4vw, 20px);
+          margin-top: 20px;
+          .addressText{
+            text-decoration: underline;
+          }
+        }
+
+        .addressMetroDiv{
+          font-size: min(4vw, 20px);
+          margin-top: 20px;
+        }
+      }
+
+      .contactsNumberDiv{
+        width: 50%;
+        height: 250px;
+        //background-color: green;
+        top: 0;
+        bottom: 0;
+        padding-top: 40px;
+        float: left;
+        .numberHeaderDiv{
+          font-size: min(8vw, 45px);
+        }
+        .numberBodyDiv{
+          font-size: min(4vw, 20px);
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

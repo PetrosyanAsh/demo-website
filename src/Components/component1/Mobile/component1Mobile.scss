@@ -1,0 +1,308 @@
+@import "./../../../styles/variables.scss";
+
+
+.component1{
+  width: 100%;
+  //height: 680px;
+  height: 800px;
+  background-color: $black-bg-color;
+  //padding: 20px;
+  display: flex;
+  //align-items: center;
+  justify-content: space-between;
+
+  .addressDiv{
+    width: 200px;
+    height: 50px;
+
+    position: absolute;
+    margin-left: 0px;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    text-align: center;
+
+    .addressText{
+      color: orange;
+
+      position: relative;
+      top: 5px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .addressDivMobile{
+    width: 200px;
+    height: 50px;
+
+    position: absolute;
+    //margin-left: 0px;
+    //margin-right: auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    text-align: center;
+    font-size: min(7vw, 20px);
+
+    .addressText{
+      color: orange;
+
+      position: relative;
+      top: 5px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .numberDivMobile {
+    width: 100%;
+    height: 50px;
+    //background-color: grey;
+
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 110px;
+    text-align: center;
+    font-size: min(8vw, 30px);
+
+    .numberTextMobile {
+      color: white;
+
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  .logoDiv{
+    position: absolute;
+    background-color: $black-bg-color;
+    width: 200px;
+    height: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    text-align: center;
+
+    text-align: center;
+    .logoImg{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .mainDiv{
+    position: absolute;
+    //background-color: black;
+    width:60%;
+    //width:600px;
+    height: 150px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    top: 200px;
+    //bottom: 120px;
+    left: 50px;
+    right: 0;
+    text-align: left;
+
+    .mainTitle{
+      width: 100%;
+
+      .mainTitleText{
+        font-size: 50px;
+      }
+
+      .mainTitleTextMobile{
+        font-size: min(10vw, 50px);
+      }
+    }
+
+    .mainDescription{
+      position: relative;
+      width: 100%;
+      top: 30px;
+
+      .mainDescriptionText{
+        font-size: 20px;
+      }
+
+
+      .mainTitleTextMobile{
+        font-size: min(4vw, 20px);
+      }
+    }
+  }
+
+  .mainDivMobile{
+    position: absolute;
+    //background-color: red;
+    width:90%;
+    //width:600px;
+    height: 150px;
+
+    margin: auto auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    top: 200px;
+    //bottom: 120px;
+    //left: 50px;
+    left:0;
+    right: 0;
+    text-align: center;
+
+    .mainTitleMobile{
+      width: 100%;
+
+      .mainTitleTextMobile{
+        font-size: 50px;
+      }
+
+      .mainTitleTextMobileMobile{
+        font-size: min(10vw, 50px);
+      }
+    }
+
+    .mainDescriptionMobile{
+      position: relative;
+      width: 100%;
+      top: 30px;
+
+      .mainDescriptionTextMobile{
+        font-size: 20px;
+      }
+
+
+      .mainTitleTextMobileMobile{
+        font-size: min(4vw, 20px);
+      }
+    }
+  }
+
+
+
+  .infoPanelsLayout{
+    width: 80%;
+    height: 200px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    //bottom: 100px;
+    top: 400px;
+
+    display: table-cell;
+
+    .infoPanel{
+      background-color: rgb(255 255 255 / .25);
+      border-radius: 25px;
+
+      width: 20%;
+      min-width: 200px;
+      height: 150px;
+      padding-left: 30px;
+
+
+      display: inline-grid;
+      vertical-align: middle;
+
+      margin-left: 30px;
+      margin-top: 30px;
+
+      .infoPanelIcon{
+        width: 50px;
+        height: 50px;
+        //padding-bottom: 10px;
+        margin: auto 0;
+      }
+
+      .infoPanelDescription{
+        //padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto 0;
+        //font-size: 20px;
+        font-size: min(3vw, 20px);
+      }
+
+      .infoPanelDescriptionMobile{
+        //padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto 0;
+        //font-size: 20px;
+        font-size: min(10vw, 20px);
+      }
+    }
+  }
+
+  .infoPanelsLayoutMobile{
+    width: 80%;
+    height: 200px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    //bottom: 100px;
+    top: 400px;
+
+    display: table-cell;
+
+    .infoPanelMobile{
+      background-color: rgb(255 255 255 / .25);
+      border-radius: 25px;
+
+      width: 20%;
+      min-width: 200px;
+      height: 150px;
+      padding-left: 30px;
+      padding-top: 15px;
+
+
+      //display: inline-grid;
+      vertical-align: middle;
+
+      //margin-left: 30px;
+      margin: 0 auto;
+      margin-top: 30px;
+
+      .infoPanelIcon{
+        width: 50px;
+        height: 50px;
+        //padding-bottom: 10px;
+        margin: auto 0;
+      }
+
+      .infoPanelDescriptionMobile{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto 0;
+        margin-top: 20px;
+        //background-color: red;
+        //font-size: 20px;
+        font-size: min(3vw, 20px);
+      }
+
+      .infoPanelDescriptionMobile{
+        //padding-top: 10px;
+        padding-bottom: 10px;
+        margin: auto 0;
+        //font-size: 20px;
+        font-size: min(10vw, 20px);
+      }
+    }
+  }
+
+
+
+}

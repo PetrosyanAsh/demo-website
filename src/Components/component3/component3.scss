@@ -1,0 +1,176 @@
+@import "./../../styles/variables.scss";
+
+
+.component3{
+  width: 100%;
+  //height: 800px;
+  //padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  //display: flex;
+  //align-items: center;
+  //justify-content: space-between;
+  background-color: $black-bg-color;
+  //align-content: center;
+  text-align: center;
+
+
+  .header{
+      .headerText{
+        color: white;
+        //font-size: min(3vw, 40px);
+        font-size: 40px;
+      }
+  }
+
+  .priceDiv{
+    width: 70%;
+    max-width: 400px;
+    min-width: 280px;
+    height: 250px;
+    background-color: $black-bg-color;
+    border: 1px white solid;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    //margin: 20px 20px;
+    margin: 20px auto 0 auto;
+    //display: inline-block;
+
+    .priceHeaderDiv{
+      width: 100%;
+      height: 100px;
+      background-color: $black-bg-color;
+      border-bottom: 2px black solid;
+      //border-radius: 20px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      align-items: center;
+      padding-top: 37px;
+
+      .priceHeaderText{
+        width: 100%;
+        height: 75px;
+        //display: table;
+        text-align: center;
+        vertical-align: center;
+        //padding-top: 100px;
+        margin: auto;
+
+        color: white;
+
+        //font-size: min(200%, 30px);
+        //font-size: 30px;
+        //font-size: min(200%, 30px);
+        font-size: min(7vw, 22px);
+      }
+    }
+
+    .priceBodyTopDiv{
+        width: 100%;
+        height: 75px;
+        //background-color: lavender;
+        border-bottom: 2px black solid;
+
+
+        .priceBodyTopLeftDiv{
+          width: 40%;
+          height: 73px;
+          background-color: white;
+          border-right: 2px black solid;
+          float: left;
+          padding-top: 25px;
+
+          .priceBodyText{
+            width: 100%;
+            height: 75px;
+            //display: table;
+            text-align: center;
+            vertical-align: center;
+            padding-top: 25px;
+            margin: auto;
+            color: black;
+
+            font-size: 19px;
+          }
+        }
+
+        .priceBodyTopRightDiv{
+          width: 60%;
+          height: 100%;
+          background-color: white;
+          float: left;
+          padding-top: 20px;
+
+          .priceBodyText{
+            width: 100%;
+            height: 75px;
+            //display: table;
+            text-align: center;
+            vertical-align: center;
+            //padding-top: 18px;
+            margin: auto;
+            color: black;
+
+            //font-size: 30px;
+            font-size: min(6vw, 30px);
+            //min-font-size: 30px;
+          }
+        }
+    }
+
+    .priceBodyBottomDiv{
+      width: 100%;
+      height: 71px;
+      //background-color: lavender;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      .priceBodyBottomLeftDiv{
+        width: 40%;
+        height: 105%;
+        border-right: 2px black solid;
+        border-bottom-left-radius: 20px;
+        background-color: white;
+        padding-top: 22px;
+        float: left;
+
+        .priceBodyText{
+          width: 100%;
+          height: 75px;
+          //display: table;
+          text-align: center;
+          vertical-align: center;
+          padding-top: 25px;
+          margin: auto;
+          color: black;
+
+          font-size: 19px;
+        }
+      }
+
+      .priceBodyBottomRightDiv{
+        width: 60%;
+        height: 105%;
+        background-color: white;
+        float: left;
+        border-bottom-right-radius: 20px;
+        padding-top: 20px;
+
+        .priceBodyText{
+          width: 100%;
+          height: 75px;
+          //display: table;
+          text-align: center;
+          vertical-align: center;
+          padding-top: 18px;
+          margin: auto;
+          color: black;
+
+          //font-size: 30px;
+          font-size: min(6vw, 30px);
+        }
+      }
+    }
+  }
+}

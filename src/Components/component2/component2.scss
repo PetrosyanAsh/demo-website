@@ -1,0 +1,97 @@
+@import "./../../styles/variables.scss";
+
+
+.component2{
+  width: 100%;
+  //height: 2600px;
+  //min-height: 200vw;
+  //max-height: 500vw;
+  background-color: $black-bg-color;
+  //display: flex;
+  //align-items: center;
+  justify-content: space-between;
+
+  .headerDiv{
+    //background-color: orange;
+
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 200px;
+    text-align: center;
+    //position: absolute;
+    left: 0;
+    right: 0;
+    //display: inline-block;
+    //background-color: red;
+
+    .headerText{
+      color: white;
+      //font-size: 3vw;
+      //max-font-size: 45px;
+      font-size: min(4vw, 45px);
+      //min-font-size: 40px;
+    }
+  }
+
+  .infoPointsLayout{
+    //background-color: green;
+    width: 80%;
+    height: 100%;
+    //display: block;
+    //display: inline-block;
+
+    //position: absolute;
+    left: 0;
+    right: 0;
+
+    margin: 50px auto 0 auto;
+    text-align: center;
+
+    .infoPointImageDiv{
+      //background-color: darkblue;
+      //background-color: green;
+      width: 50%;
+      height: 200px;
+
+      display: table-cell;
+      padding-top: 50px;
+      .infoPanelImage{
+        width: 70%;
+        //height: 100%;
+        margin: auto auto;
+        //background-color: green;
+
+        min-height: calc(0.2 * 100vw);
+        max-height: calc(9 / 16 * 100vw);
+      }
+    }
+
+    .infoPointTextDiv{
+      //background-color: grey;
+      width: 50%;
+      height: 200px;
+
+      display: table-cell;
+      padding-top: 50px;
+      text-align: center;
+      vertical-align: middle;
+
+      .infoPanelHeaderText{
+        display: block;
+        //font-size: 30px;
+        color: white;
+
+        font-size: min(3vw, 30px);
+      }
+
+      .infoPanelDescText{
+        display: block;
+        //font-size: 20px;
+        color: white;
+
+        font-size: min(2vw, 20px);
+      }
+    }
+  }
+}

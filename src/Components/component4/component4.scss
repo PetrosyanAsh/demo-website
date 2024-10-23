@@ -1,0 +1,43 @@
+@import "./../../styles/variables.scss";
+
+
+.component4{
+  width: 100%;
+  text-align: center;
+  background-color: $black-bg-color;
+  //background-color: red;
+
+  .headerTitle{
+    width: 50vw;
+    max-width: 500px;
+    margin: 0 auto;
+    .headerTitleText{
+      color: white;
+      font-size: min(5vw, 40px);
+    }
+  }
+
+  .headerDescription{
+    width: 80vw;
+    max-width: 800px;
+    margin: 20px auto 50px auto;
+    .headerDescriptionText{
+      color: white;
+      font-size: min(3vw, 20px);
+    }
+  }
+
+  .sliderDiv{
+    width: 60%;
+    //height: 50vw;
+    //height: 400px;
+    margin: 0 auto;
+    background-color: $black-bg-color;
+
+    //.rsis-container {
+    //  //display: none !important;
+    //  width: 100% !important;
+    //  height: 100% !important;
+    //}
+  }
+}
